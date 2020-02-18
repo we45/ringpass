@@ -29,6 +29,8 @@ keyring frontend program [Seahorse](https://wiki.gnome.org/Apps/Seahorse):
 
 ## Usage
 
+[![asciicast](https://asciinema.org/a/sQWpHC1LoFefLAiQ3PDq4nLry.svg)](https://asciinema.org/a/sQWpHC1LoFefLAiQ3PDq4nLry)
+
 * Download binary for your OS from the releases to `/usr/local/bin` or other exec directory
 
 ### Store secrets
