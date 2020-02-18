@@ -7,6 +7,22 @@
 * Works on *Nix
 * Works on OSX
 
+### Dependencies
+
+#### Linux
+
+The Linux implementation depends on the [Secret Service][SecretService] dbus
+interface, which is provided by [GNOME Keyring](https://wiki.gnome.org/Projects/GnomeKeyring).
+
+It's expected that the default collection `login` exists in the keyring, because
+it's the default in most distros. If it doesn't exist, you can create it through the
+keyring frontend program [Seahorse](https://wiki.gnome.org/Apps/Seahorse):
+
+ * Open `seahorse`
+ * Go to **File > New > Password Keyring**
+ * Click **Continue**
+ * When asked for a name, use: **login**
+
 ## Features
 * Set Secret (stores in keyring, keychain)
 * Retrieve secret to clipboard and JSON (stdout) for things like JQ, etc or use in automated scripts
